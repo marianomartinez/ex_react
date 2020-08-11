@@ -10,16 +10,18 @@ import CategoriesInDB from './CategoriesInDB';
 function PageContent() {
     return (
         <React.Fragment>
-            <PageHeading/>
-            {/* <!-- Content Row --> */}
-		    <div className="row">
-                <AmountProductsInDB/>
-                <TotalValueProductsInDB/>
-                <AmountUsersInDB/>
-            </div>
-            <div className="row">
-                <LastProductInDB/>
-                <CategoriesInDB/>
+            <div className="container-fluid">
+                <PageHeading/>
+                {/* <!-- Content Row --> */}
+		        <div className="row">
+                    <AmountProductsInDB/>
+                    <TotalValueProductsInDB/>
+                    <AmountUsersInDB/>
+                </div>
+                <div className="row">
+                    <LastProductInDB/>
+                    <CategoriesInDB/>
+                </div>
             </div>
         </React.Fragment>
   );
