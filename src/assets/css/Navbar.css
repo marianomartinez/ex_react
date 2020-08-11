@@ -1,0 +1,19 @@
+.list {
+    background-color: tomato;
+    color: white;
+    display: flex;
+}
+
+.list li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.list li a:hover {
+    text-decoration: underline;
+}

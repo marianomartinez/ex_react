@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import './assets/css/index.css';
+// import App from './components/App'; // Lo comentamos porque antes lo usábamos entre los React.StrictMode, donde ahora usamos Navbar
+// import Navbar from './components/Navbar';
 import * as serviceWorker from './serviceWorker';
+
+import './assets/css/main.css'
+import Wrapper from './components/Wrapper';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Wrapper />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,36 @@
+SRC/index.js es el entry point
+. import sería el require
+. ReactDOM.render sería el res.render
+. lo de React.strict es opcional
+
+JSX es como un HTML de JS. 
+
+Las etiquetas que usan etiqueta debenser cerradas con / al final de la etiqueta.
+Ejemplo
+    <meta charset="utf-8" />
+
+Los <App /> son componentes, que componen la vista.
+. se crean todos individualmente y se van importando
+. App.js es un ejemplo de sintaxis completa de componente.
+!!! movimos App.js a components
+
+'root' es el ID del componente principal, por defecto.
+
+
+En SRC/index.js se puede usar destructuring
+    import {React, StrictMode} from 'react';
+
+En SRC/COMPONENTS van modularizados los componentes
+. sería el equivalente a los "partials"
+!!! Movemos App.js a la carpeta components
+!!! Debemos actualizar el import (se puede aceptar el cambio automático)
+!!! Debemos actualizar la carpeta del CSS en App.js
+
+Deberíamos reorganizar las carpetas, creando assets con css e images (y otros)
+!!! Debemos actualizar las referencias donde se utiliza
+
+En index.css podemos importar una fuente de googleFonts
+
+Navbar.js es un componente
+. sólo puede tener una etiqueta padre.
+. si queremos agregar otra etiqueta padre debemos envolver todo en un div, o en React.Fragment
