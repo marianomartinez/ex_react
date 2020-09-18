@@ -40,7 +40,7 @@ function Sidebar() {
 			<hr className="sidebar-divider d-none d-md-block"/>
         </ul>
         // <!-- End of Sidebar -->
-  );
+    );
 }
 
 export default Sidebar;

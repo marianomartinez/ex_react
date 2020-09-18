@@ -4,6 +4,7 @@ import '../assets/css/main.css';
 
 function LastProductInDB() {
     return (
+		// <!-- Last Product in DB -->
         <div className="col-lg-6 mb-4">
 			<div className="card shadow mb-4">
 				<div className="card-header py-3">
@@ -18,7 +19,7 @@ function LastProductInDB() {
 				</div>
 			</div>
 		</div>
-  );
+  	);
 }
 
 export default LastProductInDB;

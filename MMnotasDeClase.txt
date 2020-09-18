@@ -5,11 +5,13 @@ SRC/index.js es el entry point
 
 JSX es como un HTML de JS. 
 
-Las etiquetas que usan etiqueta debenser cerradas con / al final de la etiqueta.
+Las etiquetas que no usan etiqueta de cierre deben ser cerradas con / al final de la etiqueta.
 Ejemplo
     <meta charset="utf-8" />
 
-Los <App /> son componentes, que componen la vista.
+El atributo "class" debe convertirse a "className"
+
+Los <App /> son componentes, que forman parte de la vista.
 . se crean todos individualmente y se van importando
 . App.js es un ejemplo de sintaxis completa de componente.
 !!! movimos App.js a components

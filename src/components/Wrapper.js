@@ -8,9 +8,8 @@ function Wrapper() {
         <div id="wrapper">
             <Sidebar/>
             <ContentWrapper/>
-            
         </div>
-  );
+    );
 }
 
 export default Wrapper;

@@ -11,7 +11,7 @@ function MainContent() {
             <PageContent/>
         </div>
         // <!-- End of Main Content -->
-  );
+    );
 }
 
 export default MainContent;

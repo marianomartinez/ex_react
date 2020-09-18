@@ -10,6 +10,7 @@ import Wrapper from './components/Wrapper';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <App /> */}
     <Wrapper />
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,8 +1,18 @@
 import React from 'react';
 import '../assets/css/main.css';
+import CategoryCard from './CategoryCard';
+
+let category1 = {titulo: 'Category 01'};
+let category2 = {titulo: 'Category 02'};
+let category3 = {titulo: 'Category 03'};
+let category4 = {titulo: 'Category 04'};
+let category5 = {titulo: 'Category 05'};
+let category6 = {titulo: 'Category 06'};
+let card = [category1, category2, category3, category4, category5, category6];
 
 function CategoriesInDB() {
     return (
+		// <!-- Categories in DB -->
         <div className="col-lg-6 mb-4">						
 			<div className="card shadow mb-4">
 				<div className="card-header py-3">
@@ -10,53 +20,14 @@ function CategoriesInDB() {
 				</div>
 				<div className="card-body">
 					<div className="row">
-						<div className="col-lg-6 mb-4">
-							<div className="card bg-info text-white shadow">
-								<div className="card-body">
-									Category 01
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-6 mb-4">
-							<div className="card bg-info text-white shadow">
-								<div className="card-body">
-									Category 02
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-6 mb-4">
-							<div className="card bg-info text-white shadow">
-								<div className="card-body">
-									Category 03
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-6 mb-4">
-							<div className="card bg-info text-white shadow">
-								<div className="card-body">
-									Category 04
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-6 mb-4">
-							<div className="card bg-info text-white shadow">
-								<div className="card-body">
-									Category 05
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-6 mb-4">
-							<div className="card bg-info text-white shadow">
-								<div className="card-body">
-									Category 06
-								</div>
-							</div>
-						</div>
+						{card.map((elements,i) => {
+							return <CategoryCard {...elements} key={i}/>
+						})}
 					</div>
 				</div>
 			</div>
 		</div>
-  );
+  	);
 }
 
 export default CategoriesInDB;

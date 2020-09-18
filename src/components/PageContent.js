@@ -1,30 +1,25 @@
 import React from 'react';
 import '../assets/css/main.css';
 import PageHeading from './PageHeading';
-import AmountProductsInDB from './AmountProductsInDB';
-import TotalValueProductsInDB from './TotalValueProductsInDB';
-import AmountUsersInDB from './AmountUsersInDB';
-import LastProductInDB from './LastProductInDB';
-import CategoriesInDB from './CategoriesInDB';
+import PageContentTop from './PageContentTop';
+import PageContentBottom from './PageContentBottom';
+import PageContentProductsTable from './PageContentProductsTable';
 
 function PageContent() {
     return (
-        <React.Fragment>
+        // <!-- Page Content -->
+        <React.Fragment> {/*Not really needed as there's a DIV acting as a container*/}
             <div className="container-fluid">
                 <PageHeading/>
-                {/* <!-- Content Row --> */}
-		        <div className="row">
-                    <AmountProductsInDB/>
-                    <TotalValueProductsInDB/>
-                    <AmountUsersInDB/>
-                </div>
-                <div className="row">
-                    <LastProductInDB/>
-                    <CategoriesInDB/>
-                </div>
+                {/* <!-- Page Content Top Row --> */}
+                <PageContentTop />
+                {/* <!-- Page Content Bottom Row --> */}
+                <PageContentBottom />
+                {/* <!-- Page Content Products Table --> */}
+                <PageContentProductsTable />
             </div>
         </React.Fragment>
-  );
+    );
 }
 
 export default PageContent;

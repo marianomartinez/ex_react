@@ -6,13 +6,14 @@ import NavitemUserInfo from './NavitemUserInfo';
 
 function TopbarNavbar() {
     return (
-      <ul className="navbar-nav ml-auto">
-        <NavitemAlerts/>
-        <NavitemMessages/>
-        <div className="topbar-divider d-none d-sm-block"></div>
-        <NavitemUserInfo/>        
-      </ul>
-  );
+        // <!-- Topbar Navbar -->
+        <ul className="navbar-nav ml-auto">
+            <NavitemAlerts/>
+            <NavitemMessages/>
+            <div className="topbar-divider d-none d-sm-block"></div>
+            <NavitemUserInfo/>        
+        </ul>
+    );
 }
 
 export default TopbarNavbar;
