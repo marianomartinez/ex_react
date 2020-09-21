@@ -10,7 +10,7 @@ function Counter(props) {
 }
 // Data type validation with PropTypes
 Counter.propTypes = {
-	value: PropTypes.string.isRequired,
+	qty: PropTypes.string.isRequired,
 }
 
 export default Counter;

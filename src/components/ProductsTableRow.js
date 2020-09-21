@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/css/main.css';
 
-function ProductList(props) {
+function ProductsTableRow(props) {
     return(
         <tr>
             <td>{props.id}</td>
@@ -12,4 +12,4 @@ function ProductList(props) {
     )
 }
 
-export default ProductList;
+export default ProductsTableRow;

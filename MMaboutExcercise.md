@@ -19,3 +19,10 @@ Here's an example of differencies between React and HTML, found in LastProductIn
 
 Here's a syntax example of using props into HTML tag:
 <div className={`text-xs font-weight-bold text-${props.color} text-uppercase mb-1`}>{props.title}</div>
+
+
+Data from API or locally defined
+There are 2 versions of PageContentProductsTable:
+- PageContentProductsTable-API.js uses data from an API (must have "restaurante" project running)
+- PageContentProductsTable-localData.js uses locally defined data
+To swtich versions, check PageContent.js

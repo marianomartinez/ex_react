@@ -3,7 +3,7 @@ import '../assets/css/main.css';
 import Counter from './Counter';
 
 let messages = {
-	qty: 7
+	qty: '7'
 };
 
 function NavitemMessages() {

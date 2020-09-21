@@ -3,7 +3,8 @@ import '../assets/css/main.css';
 import PageHeading from './PageHeading';
 import PageContentTop from './PageContentTop';
 import PageContentBottom from './PageContentBottom';
-import PageContentProductsTable from './PageContentProductsTable';
+// import PageContentProductsTable from './PageContentProductsTable-API';
+import PageContentProductsTable from './PageContentProductsTable-localData';
 
 function PageContent() {
     return (

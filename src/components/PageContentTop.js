@@ -4,7 +4,7 @@ import TopRowSmallCard from './TopRowSmallCard';
 
 let product = {
     title: 'Products in Data Base',
-    value: 135,
+    value: '135',
     color: 'primary',
     icon: 'fa-clipboard-list'
 };
@@ -16,7 +16,7 @@ let amount = {
 };
 let users = {
     title: 'Users quantity',
-    value: 38,
+    value: '38',
     color: 'warning',
     icon: 'fa-user-check'
 };
